@@ -3,8 +3,9 @@ import numpy as np
 arr = np.arange(10) # 0부터 10 제외
 print(arr)
 # array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-print(arr[0]) # 0
-print(arr[5:8]) # array([5, 6, 7])
+print(arr[0]) # 0 첫번째 인덱스
+print(arr[5:8]) # array([5, 6, 7]) 6번째 인덱스~
+print(arr[0:8:2]) #[0 2 4 6] 2씩 건너뜀!
 
 #1차원 슬라이싱(slicing)
 arr[5:8] = 12
